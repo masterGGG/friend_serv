@@ -1,0 +1,475 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+ALERT_LOG	log.h	190;"	d
+ALERT_LOG	log.h	195;"	d
+AR	Makefile	/^AR       = ar rcs $/;"	m
+ASYNC_SERVER_H	async_server.h	2;"	d
+AddChild	strategy.cpp	/^bool Element::AddChild(Element *ele)$/;"	f	class:Element
+AfterDisable	strategy.cpp	/^void Element::AfterDisable()$/;"	f	class:Element
+AfterEnable	strategy.cpp	/^void Element::AfterEnable()$/;"	f	class:Element
+AsyncProtoHandler	proto_handler.h	/^    AsyncProtoHandler(){}$/;"	f	class:AsyncProtoHandler
+AsyncProtoHandler	proto_handler.h	/^class AsyncProtoHandler : public IAsyncProtoHandler$/;"	c
+AsyncService	service.cpp	/^AsyncService::AsyncService(const HostInfo &hi)$/;"	f	class:AsyncService
+AsyncService	service.h	/^class AsyncService : public Service, public ISend$/;"	c
+AsyncServiceGroup	service_group.h	/^class AsyncServiceGroup : public IAsyncServiceGroup, public ISend$/;"	c
+AsyncServiceReplicas	service_replicas.h	/^class AsyncServiceReplicas : public ServiceReplicas, public ISend$/;"	c
+BOOT_LOG	log.h	354;"	d
+BOOT_LOG2	log.h	365;"	d
+CENTER_CONFIG_MANAGER_H	center_config_manager.h	2;"	d
+CFLAGS	Makefile	/^CFLAGS   = -DNDEBUG $(NOATIME) -std=c++0x -Wall -Wnon-virtual-dtor -ggdb -fPIC -g$/;"	m
+CGetProcessIdentity	config_proto_handler.cpp	/^bool ConfigSyncProtoHandler::CGetProcessIdentity(string local_path, map<string, string> &config_map)$/;"	f	class:ConfigSyncProtoHandler
+COMMON_H	common.h	2;"	d
+CONFIG_MANAGER_H	config_manager.h	2;"	d
+CRIT_LOG	log.h	212;"	d
+CRIT_LOG	log.h	217;"	d
+CancelFromReInit	service.cpp	/^void ReInitable::CancelFromReInit(ReInitable *ri) $/;"	f	class:ReInitable
+CenterConfigManager	center_config_manager.h	/^class CenterConfigManager : public ConfigManager$/;"	c
+CheckGroupInfo	service_group.cpp	/^bool ServiceGroup::CheckGroupInfo(const ServiceGroupInfo &sgi) {$/;"	f	class:ServiceGroup
+CheckStrategy	service_group.h	/^    virtual bool CheckStrategy(Strategy::strategy_type strategy) {$/;"	f	class:IntSyncServiceGroup
+CheckStrategy	service_group.h	/^    virtual bool CheckStrategy(Strategy::strategy_type strategy) {$/;"	f	class:StringSyncServiceGroup
+CheckStrategy	service_group.h	/^    virtual bool CheckStrategy(Strategy::strategy_type strategy) {$/;"	f	class:SyncServiceGroup
+CheckStrategy	service_group.h	/^    virtual bool CheckStrategy(Strategy::strategy_type strategy){$/;"	f	class:AsyncServiceGroup
+CheckStrategy	service_group.h	/^    virtual bool CheckStrategy(Strategy::strategy_type strategy){$/;"	f	class:IntAsyncServiceGroup
+CheckStrategy	service_group.h	/^    virtual bool CheckStrategy(Strategy::strategy_type strategy){$/;"	f	class:StringAsyncServiceGroup
+ChooseByInt	strategy.cpp	/^Element* IntRegionStrategy::ChooseByInt(int seed) {$/;"	f	class:IntRegionStrategy
+ChooseByNothing	strategy.cpp	/^Element* FixedStrategy::ChooseByNothing()$/;"	f	class:FixedStrategy
+ChooseByNothing	strategy.cpp	/^Element* RollStrategy::ChooseByNothing()$/;"	f	class:RollStrategy
+ChooseByString	strategy.cpp	/^Element* StringRegionStrategy::ChooseByString(const string &seed) {$/;"	f	class:StringRegionStrategy
+ClearReplicases	service_group.cpp	/^void ServiceGroup::ClearReplicases()$/;"	f	class:ServiceGroup
+ClearServices	service_replicas.cpp	/^void ServiceReplicas::ClearServices()$/;"	f	class:ServiceReplicas
+ClearStrategy	service_group.cpp	/^void ServiceGroup::ClearStrategy()$/;"	f	class:ServiceGroup
+ClearStrategy	service_replicas.cpp	/^void ServiceReplicas::ClearStrategy()$/;"	f	class:ServiceReplicas
+Close	file_lister.cpp	/^void FileLister::Close()$/;"	f	class:FileLister
+Close	service_group.cpp	/^void ServiceGroup::Close()$/;"	f	class:ServiceGroup
+Close	service_replicas.cpp	/^void ServiceReplicas::Close()$/;"	f	class:ServiceReplicas
+Close	tcp_client.h	/^inline void TcpClient::Close()$/;"	f	class:TcpClient
+Common	net_utils.cpp	/^namespace Common$/;"	n	file:
+Common	net_utils.h	/^namespace Common$/;"	n
+Common	string_utils.cpp	/^namespace Common$/;"	n	file:
+Common	string_utils.h	/^namespace Common$/;"	n
+Common	time_utils.cpp	/^namespace Common$/;"	n	file:
+Common	time_utils.h	/^namespace Common$/;"	n
+ConfigGetIntVal	center_config_manager.cpp	/^int CenterConfigManager::ConfigGetIntVal(const char *key, int defult) const$/;"	f	class:CenterConfigManager
+ConfigGetIntVal	file_config_manager.cpp	/^int FileConfigManager::ConfigGetIntVal(const char *key, int val) const$/;"	f	class:FileConfigManager
+ConfigGetStrVal	center_config_manager.cpp	/^const char *CenterConfigManager::ConfigGetStrVal(const char *key, const char *val) const$/;"	f	class:CenterConfigManager
+ConfigGetStrVal	file_config_manager.cpp	/^const char *FileConfigManager::ConfigGetStrVal(const char *key, const char *val) const$/;"	f	class:FileConfigManager
+ConfigManager	config_manager.h	/^    ConfigManager(){$/;"	f	class:ConfigManager
+ConfigManager	config_manager.h	/^class ConfigManager$/;"	c
+ConfigSyncProtoHandler	config_proto_handler.h	/^    ConfigSyncProtoHandler(){}$/;"	f	class:ConfigSyncProtoHandler
+ConfigSyncProtoHandler	config_proto_handler.h	/^class ConfigSyncProtoHandler : public SyncProtoHandler$/;"	c
+Connect	tcp_client.cpp	/^int TcpClient::Connect()$/;"	f	class:TcpClient
+Connect	tcp_client.h	/^inline int TcpClient::Connect(const string& host, const string& port)$/;"	f	class:TcpClient
+ConnectHost	tcp_client.cpp	/^int TcpClient::ConnectHost()$/;"	f	class:TcpClient
+CreateReplicas	service_group.h	/^    virtual ServiceReplicas *CreateReplicas() {$/;"	f	class:IAsyncServiceGroup
+CreateReplicas	service_group.h	/^    virtual ServiceReplicas *CreateReplicas() {$/;"	f	class:ISyncServiceGroup
+CreateService	service_replicas.h	/^    virtual Service *CreateService(const HostInfo &hi){$/;"	f	class:AsyncServiceReplicas
+CreateService	service_replicas.h	/^    virtual Service *CreateService(const HostInfo &hi){$/;"	f	class:SyncServiceReplicas
+CreateServiceGroup	proto_handler.cpp	/^IAsyncServiceGroup *AsyncProtoHandler::CreateServiceGroup() {$/;"	f	class:AsyncProtoHandler
+CreateServiceGroup	proto_handler.cpp	/^IAsyncServiceGroup *IntAsyncProtoHandler::CreateServiceGroup() {$/;"	f	class:IntAsyncProtoHandler
+CreateServiceGroup	proto_handler.cpp	/^IAsyncServiceGroup *StringAsyncProtoHandler::CreateServiceGroup() {$/;"	f	class:StringAsyncProtoHandler
+CreateServiceGroup	proto_handler.cpp	/^ISyncServiceGroup *IntSyncProtoHandler::CreateServiceGroup() {$/;"	f	class:IntSyncProtoHandler
+CreateServiceGroup	proto_handler.cpp	/^ISyncServiceGroup *StringSyncProtoHandler::CreateServiceGroup() {$/;"	f	class:StringSyncProtoHandler
+CreateServiceGroup	proto_handler.cpp	/^ISyncServiceGroup *SyncProtoHandler::CreateServiceGroup() {$/;"	f	class:SyncProtoHandler
+CreateStrategy	service_group.cpp	/^Strategy *ServiceGroup::CreateStrategy(Strategy::strategy_type strategy, $/;"	f	class:ServiceGroup
+DEBUG_LOG	log.h	318;"	d
+DEBUG_LOG	log.h	323;"	d
+DEBUG_RETURN	log.h	420;"	d
+DEBUG_RETURN_VOID	log.h	431;"	d
+DETAIL	log.h	143;"	d
+DETAIL	log.h	146;"	d
+Disable	strategy.cpp	/^void Element::Disable()$/;"	f	class:Element
+DoArchive	log_processor.cpp	/^int LogProcessor::DoArchive()$/;"	f	class:LogProcessor
+DoRemove	log_processor.cpp	/^int LogProcessor::DoRemove()$/;"	f	class:LogProcessor
+EMERG_LOG	log.h	169;"	d
+EMERG_LOG	log.h	174;"	d
+ERROR_LOG	log.h	233;"	d
+ERROR_LOG	log.h	238;"	d
+ERROR_RETURN	log.h	376;"	d
+ERROR_RETURN_VOID	log.h	387;"	d
+Element	strategy.cpp	/^Element::Element():$/;"	f	class:Element
+Element	strategy.h	/^class Element$/;"	c
+Enable	strategy.cpp	/^void Element::Enable()$/;"	f	class:Element
+FILE_CONFIG_MANAGER_H	file_config_manager.h	2;"	d
+FileConfigManager	file_config_manager.h	/^class FileConfigManager : public ConfigManager$/;"	c
+FileLister	file_lister.cpp	/^FileLister::FileLister(const std::string& path)	: m_dirpath(path), m_dir(NULL)$/;"	f	class:FileLister
+FileLister	file_lister.h	/^class FileLister {$/;"	c
+FixedStrategy	strategy.cpp	/^FixedStrategy::FixedStrategy(const vector<Element*> &elements)$/;"	f	class:FixedStrategy
+FixedStrategy	strategy.h	/^class FixedStrategy : public Strategy, public IChooseByNothing$/;"	c
+GetConfigFromCenter	center_config_manager.cpp	/^bool CenterConfigManager::GetConfigFromCenter(const char * local_path, map<string, string> &config_map)$/;"	f	class:CenterConfigManager
+GetCurrentTimeMs	time_utils.cpp	/^    long GetCurrentTimeMs()    $/;"	f	namespace:Common
+GetDayDistance	log_processor.cpp	/^int LogProcessor::GetDayDistance(time_t from, time_t to)$/;"	f	class:LogProcessor
+GetFileDate	log_processor.cpp	/^void LogProcessor::GetFileDate(const string& filename, int& result){$/;"	f	class:LogProcessor
+GetInstance	singleton.h	/^    static T* &GetInstance() $/;"	f	class:Singleton
+GetIpPort	tcp_client.cpp	/^int TcpClient::GetIpPort(uint32_t& ip, uint16_t& port)$/;"	f	class:TcpClient
+GetParent	strategy.h	/^    Element *GetParent(){$/;"	f	class:Element
+GetProtoHandler	service_group.h	/^    virtual IAsyncProtoHandler *GetProtoHandler() {$/;"	f	class:IAsyncServiceGroup
+GetServiceByFd	service.h	/^    static AsyncService *GetServiceByFd(int fd){$/;"	f	class:AsyncService
+GetServiceGroupInfo	service_group.cpp	/^const ServiceGroupInfo& ServiceGroup::GetServiceGroupInfo() const$/;"	f	class:ServiceGroup
+GetServiceGroupInfo	service_group.h	/^    ServiceGroupInfo GetServiceGroupInfo() {$/;"	f	class:ServiceGroup
+GetTimestampByDate	log_processor.cpp	/^uint32_t LogProcessor::GetTimestampByDate(int date)$/;"	f	class:LogProcessor
+HostInfo	service.cpp	/^HostInfo::HostInfo(const string &i, int p, int t, bool f)$/;"	f	class:HostInfo
+HostInfo	service.h	/^class HostInfo$/;"	c
+IAsyncProtoHandler	proto_handler.h	/^class IAsyncProtoHandler : public IProtoHandler$/;"	c
+IAsyncServiceGroup	service_group.h	/^    IAsyncServiceGroup():m_aph(NULL){}$/;"	f	class:IAsyncServiceGroup
+IAsyncServiceGroup	service_group.h	/^class IAsyncServiceGroup : public ServiceGroup$/;"	c
+IChooseByInt	strategy.h	/^class IChooseByInt$/;"	c
+IChooseByNothing	strategy.h	/^class IChooseByNothing$/;"	c
+IChooseByString	strategy.h	/^class IChooseByString$/;"	c
+INCLUDES	Makefile	/^INCLUDES = -I. -I.\/include\/google$/;"	m
+INFO_LOG	log.h	297;"	d
+INFO_LOG	log.h	302;"	d
+IProcessor	processor.h	/^struct IProcessor$/;"	s
+IProtoHandler	proto_handler.h	/^    IProtoHandler():m_inited(false){}$/;"	f	class:IProtoHandler
+IProtoHandler	proto_handler.h	/^class IProtoHandler$/;"	c
+ISend	service.h	/^class ISend$/;"	c
+ISendAndRecv	service.h	/^class ISendAndRecv$/;"	c
+ISendAndRecvByInt	service_group.h	/^class ISendAndRecvByInt$/;"	c
+ISendAndRecvByNothing	service_group.h	/^class ISendAndRecvByNothing$/;"	c
+ISendAndRecvByString	service_group.h	/^class ISendAndRecvByString$/;"	c
+ISendByInt	service_group.h	/^class ISendByInt$/;"	c
+ISendByString	service_group.h	/^class ISendByString$/;"	c
+ISimpleProcessor	processor.h	/^struct ISimpleProcessor$/;"	s
+ISyncProtoHandler	proto_handler.h	/^class ISyncProtoHandler : public IProtoHandler$/;"	c
+ISyncServiceGroup	service_group.h	/^    ISyncServiceGroup(){}$/;"	f	class:ISyncServiceGroup
+ISyncServiceGroup	service_group.h	/^class ISyncServiceGroup : public ServiceGroup$/;"	c
+Init	config_proto_handler.cpp	/^bool ConfigSyncProtoHandler::Init(const vector<string> &ips, int port)$/;"	f	class:ConfigSyncProtoHandler
+Init	proto_handler.cpp	/^bool IAsyncProtoHandler::Init(const ServiceGroupInfo &sgi)$/;"	f	class:IAsyncProtoHandler
+Init	proto_handler.cpp	/^bool ISyncProtoHandler::Init(const ServiceGroupInfo &sgi)$/;"	f	class:ISyncProtoHandler
+Init	service.cpp	/^bool AsyncService::Init()$/;"	f	class:AsyncService
+Init	service.cpp	/^bool SyncService::Init()$/;"	f	class:SyncService
+Init	service_group.cpp	/^bool IAsyncServiceGroup::Init(const ServiceGroupInfo &sgi, IAsyncProtoHandler *aph)$/;"	f	class:IAsyncServiceGroup
+Init	service_group.cpp	/^bool ISyncServiceGroup::Init(const ServiceGroupInfo &sgi) {$/;"	f	class:ISyncServiceGroup
+Init	service_replicas.cpp	/^bool ServiceReplicas::Init(const ServiceReplicasInfo &sri)$/;"	f	class:ServiceReplicas
+IntAsyncProtoHandler	proto_handler.h	/^    IntAsyncProtoHandler(){}$/;"	f	class:IntAsyncProtoHandler
+IntAsyncProtoHandler	proto_handler.h	/^class IntAsyncProtoHandler : public IAsyncProtoHandler$/;"	c
+IntAsyncServiceGroup	service_group.h	/^class IntAsyncServiceGroup : public IAsyncServiceGroup, public ISendByInt$/;"	c
+IntRegionStrategy	strategy.cpp	/^IntRegionStrategy::IntRegionStrategy(const vector<Element*> &elements)$/;"	f	class:IntRegionStrategy
+IntRegionStrategy	strategy.h	/^class IntRegionStrategy : public Strategy, public IChooseByInt$/;"	c
+IntSyncProtoHandler	proto_handler.h	/^    IntSyncProtoHandler(){}$/;"	f	class:IntSyncProtoHandler
+IntSyncProtoHandler	proto_handler.h	/^class IntSyncProtoHandler : public ISyncProtoHandler, public ISendAndRecvByInt$/;"	c
+IntSyncServiceGroup	service_group.h	/^class IntSyncServiceGroup : public ISyncServiceGroup, public ISendAndRecvByInt$/;"	c
+IsAlive	tcp_client.h	/^inline bool TcpClient::IsAlive()$/;"	f	class:TcpClient
+IsEnable	strategy.h	/^    bool IsEnable() {$/;"	f	class:Element
+IsInited	proto_handler.h	/^    bool IsInited() {$/;"	f	class:IProtoHandler
+IsInited	service_group.h	/^    bool IsInited() {$/;"	f	class:ServiceGroup
+IsInited	service_replicas.h	/^    bool IsInited() {$/;"	f	class:ServiceReplicas
+IsLoaded	config_manager.h	/^    bool IsLoaded() {$/;"	f	class:ConfigManager
+IsRealAlive	tcp_client.cpp	/^bool TcpClient::IsRealAlive()$/;"	f	class:TcpClient
+KALERT_LOG	log.h	192;"	d
+KALERT_LOG	log.h	196;"	d
+KCRIT_LOG	log.h	214;"	d
+KCRIT_LOG	log.h	218;"	d
+KDEBUG_LOG	log.h	320;"	d
+KDEBUG_LOG	log.h	324;"	d
+KEMERG_LOG	log.h	171;"	d
+KEMERG_LOG	log.h	175;"	d
+KERROR_LOG	log.h	235;"	d
+KERROR_LOG	log.h	239;"	d
+KINFO_LOG	log.h	299;"	d
+KINFO_LOG	log.h	303;"	d
+KNOTI_LOG	log.h	278;"	d
+KNOTI_LOG	log.h	282;"	d
+KTRACE_LOG	log.h	342;"	d
+KTRACE_LOG	log.h	346;"	d
+KWARN_LOG	log.h	257;"	d
+KWARN_LOG	log.h	261;"	d
+LIBS	Makefile	/^LIBS     = -L.\/lib\/google -ldl $/;"	m
+LIBTAOMEE_LOG_H_	log.h	18;"	d
+LOG_CHECK_FMT	log.h	133;"	d
+LOG_CHECK_FMT	log.h	135;"	d
+LinkDown	service.cpp	/^void AsyncService::LinkDown()$/;"	f	class:AsyncService
+LinkUp	service.cpp	/^void AsyncService::LinkUp()$/;"	f	class:AsyncService
+LoadConfig	config_manager.h	/^    virtual bool LoadConfig(const char *source) {$/;"	f	class:ConfigManager
+LogProcessor	log_processor.cpp	/^LogProcessor::LogProcessor(const string& workpath, int archive_days, int remove_days)$/;"	f	class:LogProcessor
+LogProcessor	log_processor.h	/^class LogProcessor$/;"	c
+MAXLINE	bind.h	9;"	d
+MAX_BUF_LEN	proto.h	4;"	d
+MAX_SORT_DAY	log_processor.cpp	20;"	d	file:
+MBACCOUNT_PROTO_HANDLER_H	config_proto_handler.h	2;"	d
+NOATIME	Makefile	/^NOATIME  = $/;"	m
+NOTI_LOG	log.h	276;"	d
+NOTI_LOG	log.h	281;"	d
+Next	file_lister.cpp	/^bool FileLister::Next(string &filename)$/;"	f	class:FileLister
+OBJS	Makefile	/^OBJS     = $(patsubst %.cpp,%.o,$(SOURCES)) $/;"	m
+Open	file_lister.cpp	/^void FileLister::Open()$/;"	f	class:FileLister
+Open	file_lister.cpp	/^void FileLister::Open(const std::string& path)$/;"	f	class:FileLister
+OpenAndWrite	log_processor.cpp	/^int LogProcessor::OpenAndWrite(const string& filename,const string& write_buf){$/;"	f	class:LogProcessor
+PROC_CONN	async_server.h	/^    PROC_CONN,$/;"	e	enum:__anon1
+PROC_MAIN	async_server.h	/^    PROC_MAIN = 1,$/;"	e	enum:__anon1
+PROC_WORK	async_server.h	/^    PROC_WORK$/;"	e	enum:__anon1
+PROTO_HANDLER_H	proto_handler.h	2;"	d
+ParseConfigFile	file_config_manager.cpp	/^bool FileConfigManager::ParseConfigFile(const char * file_name, map<string, string> &config_map)$/;"	f	class:FileConfigManager
+PrintStatusInfo	proto_handler.cpp	/^void IAsyncProtoHandler::PrintStatusInfo()$/;"	f	class:IAsyncProtoHandler
+PrintStatusInfo	proto_handler.cpp	/^void ISyncProtoHandler::PrintStatusInfo()$/;"	f	class:ISyncProtoHandler
+PrintStatusInfo	service.cpp	/^void Service::PrintStatusInfo()$/;"	f	class:Service
+PrintStatusInfo	service_group.cpp	/^void ServiceGroup::PrintStatusInfo()$/;"	f	class:ServiceGroup
+PrintStatusInfo	service_replicas.cpp	/^void ServiceReplicas::PrintStatusInfo()$/;"	f	class:ServiceReplicas
+Process	log_processor.cpp	/^void LogProcessor::Process()$/;"	f	class:LogProcessor
+ProcessReInit	service.cpp	/^void ReInitable::ProcessReInit()$/;"	f	class:ReInitable
+Proto	service.h	/^struct Proto$/;"	s
+QUERY_CONF_CMD	proto.h	14;"	d
+QUERY_STRATEGY_CMD	proto.h	34;"	d
+ReInit	service.cpp	/^bool AsyncService::ReInit()$/;"	f	class:AsyncService
+ReInit	service.cpp	/^bool SyncService::ReInit()$/;"	f	class:SyncService
+ReInitable	service.h	/^class ReInitable$/;"	c
+Readv	tcp_client.cpp	/^int TcpClient::Readv(const struct iovec *iov, int iovcnt)$/;"	f	class:TcpClient
+ReconnectHost	tcp_client.h	/^inline int TcpClient::ReconnectHost()$/;"	f	class:TcpClient
+Recv	tcp_client.cpp	/^int TcpClient::Recv(void* buf, size_t len)$/;"	f	class:TcpClient
+ReloadConfig	center_config_manager.cpp	/^bool CenterConfigManager::ReloadConfig(const char * source)$/;"	f	class:CenterConfigManager
+ReloadConfig	file_config_manager.cpp	/^bool FileConfigManager::ReloadConfig(const char * source)$/;"	f	class:FileConfigManager
+ReloadServiceGroup	proto_handler.cpp	/^bool IAsyncProtoHandler::ReloadServiceGroup(const ServiceGroupInfo &sgi)$/;"	f	class:IAsyncProtoHandler
+ReloadServiceGroup	proto_handler.cpp	/^bool ISyncProtoHandler::ReloadServiceGroup(const ServiceGroupInfo &sgi)$/;"	f	class:ISyncProtoHandler
+RollStrategy	strategy.cpp	/^RollStrategy::RollStrategy(const vector<Element*> &elements)$/;"	f	class:RollStrategy
+RollStrategy	strategy.h	/^class RollStrategy : public Strategy, public IChooseByNothing$/;"	c
+SERVICE_GROUP_H	service_group.h	2;"	d
+SERVICE_H	service.h	2;"	d
+SERVICE_REPLICAS_H	service_replicas.h	2;"	d
+SIMPLY	log.h	151;"	d
+SIMPLY	log.h	154;"	d
+SOURCES	Makefile	/^SOURCES  = $(wildcard *.cpp)$/;"	m
+STRATEGY_FIXED	strategy.h	/^        STRATEGY_FIXED,             \/\/ 固定在主，主不行就切到备1，主和备1均不行就切到备2$/;"	e	enum:Strategy::strategy_type
+STRATEGY_H	strategy.h	2;"	d
+STRATEGY_MAX	strategy.h	/^        STRATEGY_MAX$/;"	e	enum:Strategy::strategy_type
+STRATEGY_MIN	strategy.h	/^        STRATEGY_MIN = 0,$/;"	e	enum:Strategy::strategy_type
+STRATEGY_ROLL	strategy.h	/^        STRATEGY_ROLL,              \/\/ 轮询，没有主备之分    $/;"	e	enum:Strategy::strategy_type
+STRATETY_INT_REGION	strategy.h	/^        STRATETY_INT_REGION,$/;"	e	enum:Strategy::strategy_type
+STRATETY_STRING_REGION	strategy.h	/^        STRATETY_STRING_REGION,$/;"	e	enum:Strategy::strategy_type
+STRING_UTILS_H_	string_utils.h	2;"	d
+SUBOBJS	Makefile	/^SUBOBJS  = $/;"	m
+Send	proto_handler.cpp	/^bool AsyncProtoHandler::Send(const void *in_buf, size_t in_len) $/;"	f	class:AsyncProtoHandler
+Send	service.cpp	/^bool AsyncService::Send(const void *buf, size_t len)$/;"	f	class:AsyncService
+Send	service_group.cpp	/^bool AsyncServiceGroup::Send(const void *in_buf, size_t in_len)$/;"	f	class:AsyncServiceGroup
+Send	service_replicas.cpp	/^bool AsyncServiceReplicas::Send(const void *in_buf, size_t in_len)$/;"	f	class:AsyncServiceReplicas
+Send	tcp_client.cpp	/^int TcpClient::Send(const void* buf, size_t len)$/;"	f	class:TcpClient
+SendAndRecv	service.cpp	/^bool SyncService::SendAndRecv(const void *in_buf, size_t in_len, void *out_buf, size_t out_buf_len, size_t &out_len)$/;"	f	class:SyncService
+SendAndRecv	service.cpp	/^bool SyncService::SendAndRecv(const void *in_buf, size_t in_len, void *out_buf, size_t out_len)$/;"	f	class:SyncService
+SendAndRecv	service_replicas.cpp	/^bool SyncServiceReplicas::SendAndRecv(const void *in_buf, size_t in_len, void *out_buf, size_t out_buf_len, size_t &out_len)$/;"	f	class:SyncServiceReplicas
+SendAndRecv	service_replicas.cpp	/^bool SyncServiceReplicas::SendAndRecv(const void *in_buf, size_t in_len, void *out_buf, size_t out_len)$/;"	f	class:SyncServiceReplicas
+SendAndRecvByInt	proto_handler.cpp	/^bool IntSyncProtoHandler::SendAndRecvByInt(const void *in_buf, size_t in_len, $/;"	f	class:IntSyncProtoHandler
+SendAndRecvByInt	service_group.cpp	/^bool IntSyncServiceGroup::SendAndRecvByInt(const void *in_buf, size_t in_len, $/;"	f	class:IntSyncServiceGroup
+SendAndRecvByNothing	proto_handler.cpp	/^bool SyncProtoHandler::SendAndRecvByNothing(const void *in_buf, size_t in_len, $/;"	f	class:SyncProtoHandler
+SendAndRecvByNothing	service_group.cpp	/^bool SyncServiceGroup::SendAndRecvByNothing(const void *in_buf, size_t in_len, $/;"	f	class:SyncServiceGroup
+SendAndRecvByString	proto_handler.cpp	/^bool StringSyncProtoHandler::SendAndRecvByString(const void *in_buf, size_t in_len, $/;"	f	class:StringSyncProtoHandler
+SendAndRecvByString	service_group.cpp	/^bool StringSyncServiceGroup::SendAndRecvByString(const void *in_buf, size_t in_len, $/;"	f	class:StringSyncServiceGroup
+SendByInt	proto_handler.cpp	/^bool IntAsyncProtoHandler::SendByInt(const void *in_buf, size_t in_len, int seed)$/;"	f	class:IntAsyncProtoHandler
+SendByInt	service_group.cpp	/^bool IntAsyncServiceGroup::SendByInt(const void *in_buf, size_t in_len, int seed)$/;"	f	class:IntAsyncServiceGroup
+SendByString	proto_handler.cpp	/^bool StringAsyncProtoHandler::SendByString(const void *in_buf, size_t in_len, const string &seed)$/;"	f	class:StringAsyncProtoHandler
+SendByString	service_group.cpp	/^bool StringAsyncServiceGroup::SendByString(const void *in_buf, size_t in_len, $/;"	f	class:StringAsyncServiceGroup
+Service	service.h	/^    Service(const HostInfo &hi):m_host_info(hi){}$/;"	f	class:Service
+Service	service.h	/^class Service : public ReInitable, public Element$/;"	c
+ServiceGroup	service_group.cpp	/^ServiceGroup::ServiceGroup()$/;"	f	class:ServiceGroup
+ServiceGroup	service_group.h	/^class ServiceGroup : public Element$/;"	c
+ServiceGroupInfo	service_group.h	/^    ServiceGroupInfo():group_strategy(Strategy::STRATEGY_MIN),forbidden(false){}$/;"	f	class:ServiceGroupInfo
+ServiceGroupInfo	service_group.h	/^class ServiceGroupInfo$/;"	c
+ServiceReplicas	service_replicas.cpp	/^ServiceReplicas::ServiceReplicas()$/;"	f	class:ServiceReplicas
+ServiceReplicas	service_replicas.h	/^class ServiceReplicas : public Element$/;"	c
+ServiceReplicasInfo	service_replicas.h	/^    ServiceReplicasInfo():replicas_strategy(Strategy::STRATEGY_MIN), forbidden(false){}$/;"	f	class:ServiceReplicasInfo
+ServiceReplicasInfo	service_replicas.h	/^class ServiceReplicasInfo$/;"	c
+SetConfigMap	center_config_manager.cpp	/^void CenterConfigManager::SetConfigMap(string key, string value)$/;"	f	class:CenterConfigManager
+SetConfigMap	file_config_manager.cpp	/^void FileConfigManager::SetConfigMap(string key, string value)$/;"	f	class:FileConfigManager
+SetInited	service_group.h	/^    void SetInited(bool init = true){$/;"	f	class:ServiceGroup
+SetInited	service_replicas.h	/^    void SetInited(bool init = true){$/;"	f	class:ServiceReplicas
+SetLoaded	config_manager.h	/^    void SetLoaded() {$/;"	f	class:ConfigManager
+SetProtoHandler	service_group.h	/^    virtual void SetProtoHandler(IAsyncProtoHandler *aph){$/;"	f	class:IAsyncServiceGroup
+SetServiceConnected	service.h	/^    static void SetServiceConnected(int fd) {$/;"	f	class:AsyncService
+SetServiceDisconnected	service.h	/^    static void SetServiceDisconnected(int fd) {$/;"	f	class:AsyncService
+SetTimeout	tcp_client.cpp	/^int TcpClient::SetTimeout(int t_ms)$/;"	f	class:TcpClient
+SetToReInit	service.cpp	/^void ReInitable::SetToReInit(ReInitable *ri) $/;"	f	class:ReInitable
+Shut	service.cpp	/^void AsyncService::Shut()$/;"	f	class:AsyncService
+Shut	service.cpp	/^void SyncService::Shut()$/;"	f	class:SyncService
+Singleton	singleton.h	/^class Singleton $/;"	c
+SortFilesToMap	log_processor.cpp	/^void LogProcessor::SortFilesToMap()$/;"	f	class:LogProcessor
+Start	file_lister.cpp	/^void FileLister::Start()$/;"	f	class:FileLister
+Strategy	strategy.cpp	/^Strategy::Strategy(const vector<Element*> &elements)$/;"	f	class:Strategy
+Strategy	strategy.h	/^class Strategy$/;"	c
+StrategyConf	service.h	/^struct StrategyConf$/;"	s
+StringAsyncProtoHandler	proto_handler.h	/^    StringAsyncProtoHandler(){}$/;"	f	class:StringAsyncProtoHandler
+StringAsyncProtoHandler	proto_handler.h	/^class StringAsyncProtoHandler : public IAsyncProtoHandler$/;"	c
+StringAsyncServiceGroup	service_group.h	/^class StringAsyncServiceGroup : public IAsyncServiceGroup, public ISendByString$/;"	c
+StringRegionStrategy	strategy.cpp	/^StringRegionStrategy::StringRegionStrategy(const vector<Element*> &elements)$/;"	f	class:StringRegionStrategy
+StringRegionStrategy	strategy.h	/^class StringRegionStrategy : public Strategy, public IChooseByString$/;"	c
+StringSyncProtoHandler	proto_handler.h	/^    StringSyncProtoHandler(){}$/;"	f	class:StringSyncProtoHandler
+StringSyncProtoHandler	proto_handler.h	/^class StringSyncProtoHandler : public ISyncProtoHandler, public ISendAndRecvByString$/;"	c
+StringSyncServiceGroup	service_group.h	/^class StringSyncServiceGroup : public ISyncServiceGroup, public ISendAndRecvByString$/;"	c
+SyncProtoHandler	proto_handler.h	/^    SyncProtoHandler(){}$/;"	f	class:SyncProtoHandler
+SyncProtoHandler	proto_handler.h	/^class SyncProtoHandler : public ISyncProtoHandler, public ISendAndRecvByNothing$/;"	c
+SyncService	service.cpp	/^SyncService::SyncService(const HostInfo &hi)$/;"	f	class:SyncService
+SyncService	service.h	/^class SyncService : public Service, public TcpClient, public ISendAndRecv$/;"	c
+SyncServiceGroup	service_group.h	/^class SyncServiceGroup : public ISyncServiceGroup, public ISendAndRecvByNothing$/;"	c
+SyncServiceReplicas	service_replicas.h	/^class SyncServiceReplicas : public ServiceReplicas, public ISendAndRecv$/;"	c
+TARGET	Makefile	/^TARGET   = libcommon.a $/;"	m
+TCP_CLIENT_HPP	tcp_client.h	14;"	d
+TC_ERROR	tcp_client.h	/^        TC_ERROR = -1,$/;"	e	enum:TcpClient::__anon7
+TC_INVALID_PARAMS	tcp_client.h	/^        TC_INVALID_PARAMS = -2,$/;"	e	enum:TcpClient::__anon7
+TC_OK	tcp_client.h	/^        TC_OK = 1$/;"	e	enum:TcpClient::__anon7
+TC_TIMEOUT	tcp_client.h	/^        TC_TIMEOUT = 0,$/;"	e	enum:TcpClient::__anon7
+TIME_UTILS_H_	time_utils.h	2;"	d
+TRACE_LOG	log.h	340;"	d
+TRACE_LOG	log.h	345;"	d
+TarMapFiles	log_processor.cpp	/^void LogProcessor::TarMapFiles(){$/;"	f	class:LogProcessor
+TcpClient	tcp_client.h	/^    TcpClient() : m_fd(-1), m_ip(""), m_port(0), m_timeout_ms(2000)$/;"	f	class:TcpClient
+TcpClient	tcp_client.h	/^    TcpClient(const string& ip, int port, int timeout_ms) : m_fd(-1), m_ip(ip), m_port(port), m_timeout_ms(timeout_ms)$/;"	f	class:TcpClient
+TcpClient	tcp_client.h	/^class TcpClient$/;"	c
+UT_EXE	Makefile	/^UT_EXE = strategy_test$/;"	m
+WARN_LOG	log.h	255;"	d
+WARN_LOG	log.h	260;"	d
+WARN_RETURN	log.h	398;"	d
+WARN_RETURN_VOID	log.h	409;"	d
+Writev	tcp_client.cpp	/^int TcpClient::Writev(const struct iovec *iov, int iovcnt)$/;"	f	class:TcpClient
+XX	Makefile	/^XX       = g++$/;"	m
+_FILE_LISTER_HPP_	file_lister.h	2;"	d
+_IPROCESSOR_HPP	processor.h	2;"	d
+_Init	service_group.cpp	/^bool ServiceGroup::_Init(const ServiceGroupInfo &sgi)$/;"	f	class:ServiceGroup
+_LOG_PROCESSOR_H	log_processor.h	2;"	d
+_LoadConfig	center_config_manager.cpp	/^bool CenterConfigManager::_LoadConfig(const char *source)$/;"	f	class:CenterConfigManager
+_LoadConfig	file_config_manager.cpp	/^bool FileConfigManager::_LoadConfig(const char *source)$/;"	f	class:FileConfigManager
+_PROTO_H	proto.h	2;"	d
+_SINGLETON_H_	singleton.h	2;"	d
+_UTILS_H_20161019	net_utils.h	2;"	d
+buf	service.h	/^    char     buf[0];$/;"	m	struct:Proto
+cmd_id	bind.h	/^	uint16_t cmd_id;$/;"	m	struct:__anon6
+cmd_id	proto.h	/^    uint16_t cmd_id;$/;"	m	struct:__anon2
+conf_num	proto.h	/^	uint32_t conf_num;$/;"	m	struct:__anon5
+config_info	proto.h	/^}__attribute__((packed)) config_info;$/;"	t	typeref:struct:__anon4
+fd_service_map	service.cpp	/^unordered_map<int, AsyncService*> AsyncService::fd_service_map;$/;"	m	class:AsyncService	file:
+fd_service_map	service.h	/^    static unordered_map<int, AsyncService*> fd_service_map; \/\/ 在link_up_ser中使用$/;"	m	class:AsyncService
+forbidden	service.h	/^    bool    forbidden;$/;"	m	class:HostInfo
+forbidden	service_group.h	/^    bool forbidden;$/;"	m	class:ServiceGroupInfo
+forbidden	service_replicas.h	/^    bool forbidden;$/;"	m	class:ServiceReplicasInfo
+get_ip_by_host	net_utils.cpp	/^	bool get_ip_by_host(string host, vector<string> &ips)$/;"	f	namespace:Common
+get_local_ip	net_utils.cpp	/^    string get_local_ip()$/;"	f	namespace:Common
+group_strategy	service_group.h	/^    Strategy::strategy_type group_strategy;$/;"	m	class:ServiceGroupInfo
+head_t	bind.h	/^}__attribute__((packed)) head_t;$/;"	t	typeref:struct:__anon6
+info	proto.h	/^	config_info info[0];$/;"	m	struct:__anon5
+instance_	singleton.h	/^    static T *instance_; $/;"	m	class:Singleton
+instance_	singleton.h	/^T *Singleton<T>::instance_ = NULL;$/;"	m	class:Singleton
+ip	proto.h	/^	char ip[64];$/;"	m	struct:__anon3
+ip	service.h	/^    string  ip;$/;"	m	class:HostInfo
+is_all_digit	string_utils.cpp	/^    bool is_all_digit(const std::string& s)$/;"	f	namespace:Common
+is_utf8	string_utils.cpp	/^    bool is_utf8(const string& s)$/;"	f	namespace:Common
+key	proto.h	/^	char key[64];$/;"	m	struct:__anon4
+len	service.h	/^    uint32_t len;$/;"	m	struct:Proto
+loaded	config_manager.h	/^    bool loaded;$/;"	m	class:ConfigManager
+local_ip	net_utils.cpp	/^	string local_ip = " ";$/;"	v
+local_path	net_utils.cpp	/^	string local_path = " ";$/;"	v
+log_dest	log.h	/^typedef enum log_dest {$/;"	g
+log_dest_both	log.h	/^	log_dest_both		= 3$/;"	e	enum:log_dest
+log_dest_file	log.h	/^	log_dest_file		= 2,$/;"	e	enum:log_dest
+log_dest_t	log.h	/^} log_dest_t;$/;"	t	typeref:enum:log_dest
+log_dest_terminal	log.h	/^	log_dest_terminal	= 1,$/;"	e	enum:log_dest
+log_lvl	log.h	/^typedef enum log_lvl {$/;"	g
+log_lvl_alert	log.h	/^	log_lvl_alert,$/;"	e	enum:log_lvl
+log_lvl_crit	log.h	/^	log_lvl_crit,$/;"	e	enum:log_lvl
+log_lvl_debug	log.h	/^	log_lvl_debug,$/;"	e	enum:log_lvl
+log_lvl_emerg	log.h	/^	log_lvl_emerg,$/;"	e	enum:log_lvl
+log_lvl_error	log.h	/^	log_lvl_error,$/;"	e	enum:log_lvl
+log_lvl_info	log.h	/^	log_lvl_info,$/;"	e	enum:log_lvl
+log_lvl_max	log.h	/^	log_lvl_max$/;"	e	enum:log_lvl
+log_lvl_notice	log.h	/^	log_lvl_notice,$/;"	e	enum:log_lvl
+log_lvl_t	log.h	/^} log_lvl_t;$/;"	t	typeref:enum:log_lvl
+log_lvl_trace	log.h	/^	log_lvl_trace,$/;"	e	enum:log_lvl
+log_lvl_warning	log.h	/^	log_lvl_warning,$/;"	e	enum:log_lvl
+m_aph	service_group.h	/^    IAsyncProtoHandler *m_aph;$/;"	m	class:IAsyncServiceGroup
+m_archive_days	log_processor.h	/^    int m_archive_days;  \/\/ 多少天以上的文件打包$/;"	m	class:LogProcessor
+m_children	strategy.h	/^    vector<Element*> m_children;$/;"	m	class:Element
+m_config_map	config_manager.h	/^    map<string, string> m_config_map;$/;"	m	class:ConfigManager
+m_connect_time_ms	service.h	/^    long      m_connect_time_ms;$/;"	m	class:AsyncService
+m_connecting	service.h	/^    bool      m_connecting;$/;"	m	class:AsyncService
+m_current	strategy.h	/^    int m_current;$/;"	m	class:RollStrategy
+m_dir	file_lister.h	/^	DIR* m_dir;$/;"	m	class:FileLister
+m_dirpath	file_lister.h	/^	std::string m_dirpath;$/;"	m	class:FileLister
+m_elements	strategy.h	/^    const vector<Element*> &m_elements;   $/;"	m	class:Strategy
+m_enable	strategy.h	/^    bool m_enable;$/;"	m	class:Element
+m_fd	service.h	/^    int       m_fd;$/;"	m	class:AsyncService
+m_fd	tcp_client.h	/^    int m_fd;$/;"	m	class:TcpClient
+m_host_info	service.h	/^    HostInfo  m_host_info;$/;"	m	class:Service
+m_inited	proto_handler.h	/^    bool m_inited;$/;"	m	class:IProtoHandler
+m_inited	service_group.h	/^    bool m_inited;$/;"	m	class:ServiceGroup
+m_inited	service_replicas.h	/^    bool m_inited;$/;"	m	class:ServiceReplicas
+m_ip	tcp_client.h	/^    string m_ip; \/\/ 由域名解析出来到ip地址$/;"	m	class:TcpClient
+m_parent	strategy.h	/^    Element *m_parent;$/;"	m	class:Element
+m_port	tcp_client.h	/^    int m_port;$/;"	m	class:TcpClient
+m_remove_days	log_processor.h	/^    int m_remove_days;   \/\/ 多少天以上的文件删除$/;"	m	class:LogProcessor
+m_replicases	service_group.h	/^    vector<Element*> m_replicases;$/;"	m	class:ServiceGroup
+m_services	service_replicas.h	/^    vector<Element*> m_services;$/;"	m	class:ServiceReplicas
+m_sg	proto_handler.h	/^    IAsyncServiceGroup *m_sg;$/;"	m	class:IAsyncProtoHandler
+m_sg	proto_handler.h	/^    ISyncServiceGroup *m_sg;$/;"	m	class:ISyncProtoHandler
+m_sgi	service_group.h	/^    ServiceGroupInfo m_sgi;$/;"	m	class:ServiceGroup
+m_sri	service_replicas.h	/^    ServiceReplicasInfo m_sri;$/;"	m	class:ServiceReplicas
+m_str_host	tcp_client.h	/^    string m_str_host; \/\/ 域名地址$/;"	m	class:TcpClient
+m_str_port	tcp_client.h	/^    string m_str_port;$/;"	m	class:TcpClient
+m_strategy	service_group.h	/^    Strategy *m_strategy;$/;"	m	class:ServiceGroup
+m_strategy	service_replicas.h	/^    Strategy *m_strategy;$/;"	m	class:ServiceReplicas
+m_tar_files	log_processor.h	/^    map<int, set<string> > m_tar_files;$/;"	m	class:LogProcessor
+m_timeout_ms	tcp_client.h	/^    int m_timeout_ms;$/;"	m	class:TcpClient
+m_workpath	log_processor.h	/^    string m_workpath;$/;"	m	class:LogProcessor
+operator !=	service.h	/^    bool operator != (const HostInfo &rhs) const {$/;"	f	class:HostInfo
+operator !=	service_group.h	/^    bool operator != (const ServiceGroupInfo& rhs) const {$/;"	f	class:ServiceGroupInfo
+operator !=	service_replicas.h	/^    bool operator != (const ServiceReplicasInfo& rhs) const {$/;"	f	class:ServiceReplicasInfo
+operator ==	service.h	/^    bool operator == (const HostInfo &rhs) const {$/;"	f	class:HostInfo
+operator ==	service_group.h	/^    bool operator == (const ServiceGroupInfo& rhs) const {$/;"	f	class:ServiceGroupInfo
+operator ==	service_replicas.h	/^    bool operator == (const ServiceReplicasInfo& rhs) const {$/;"	f	class:ServiceReplicasInfo
+path	proto.h	/^	char path[1024];$/;"	m	struct:__anon3
+pkg_len	bind.h	/^	uint32_t pkg_len;$/;"	m	struct:__anon6
+pkg_len	proto.h	/^    uint32_t pkg_len;$/;"	m	struct:__anon2
+port	service.h	/^    int     port;$/;"	m	class:HostInfo
+proto_header	proto.h	/^} __attribute__((packed)) proto_header;$/;"	t	typeref:struct:__anon2
+query_config_ack	proto.h	/^}__attribute__((packed)) query_config_ack;$/;"	t	typeref:struct:__anon5
+query_config_req	proto.h	/^}__attribute__((packed)) query_config_req;$/;"	t	typeref:struct:__anon3
+reinit_set	service.cpp	/^set<ReInitable*> ReInitable::reinit_set;$/;"	m	class:ReInitable	file:
+reinit_set	service.h	/^    static set<ReInitable*> reinit_set;$/;"	m	class:ReInitable
+replicas_strategy	service.h	/^    Strategy::strategy_type replicas_strategy;$/;"	m	struct:StrategyConf
+replicas_strategy	service_replicas.h	/^    Strategy::strategy_type replicas_strategy;$/;"	m	class:ServiceReplicasInfo
+seq_num	bind.h	/^	uint32_t seq_num;$/;"	m	struct:__anon6
+seq_num	proto.h	/^    uint32_t seq_num;$/;"	m	struct:__anon2
+seq_num	service.h	/^    uint32_t seq_num;$/;"	m	struct:Proto
+service_strategy	service.h	/^    Strategy::strategy_type service_strategy;$/;"	m	struct:StrategyConf
+split	string_utils.cpp	/^    void split(const string& s, char delim, vector<string>& elems)$/;"	f	namespace:Common
+start_service	bind.h	/^int start_service(int port, int val)$/;"	f
+status_code	bind.h	/^	uint32_t status_code;$/;"	m	struct:__anon6
+status_code	proto.h	/^    uint32_t status_code;$/;"	m	struct:__anon2
+str_echo	bind.h	/^void str_echo(int sockfd, int val)$/;"	f
+strategy_type	strategy.h	/^    enum strategy_type{$/;"	g	class:Strategy
+strtodigit	string_utils.h	/^    template<typename T> void strtodigit(const string& str, T& out)$/;"	f	namespace:Common
+timeout_ms	service.h	/^    int     timeout_ms;$/;"	m	class:HostInfo
+trim	string_utils.cpp	/^    void trim(std::string& s, const std::string& charlist)$/;"	f	namespace:Common
+type	proto.h	/^	uint32_t type;$/;"	m	struct:__anon4
+user_id	bind.h	/^	uint32_t user_id;$/;"	m	struct:__anon6
+user_id	proto.h	/^    uint32_t user_id;$/;"	m	struct:__anon2
+value	proto.h	/^	char value[0];$/;"	m	struct:__anon4
+value_len	proto.h	/^	uint32_t value_len;$/;"	m	struct:__anon4
+vec	service_group.h	/^    vector<ServiceReplicasInfo> vec;$/;"	m	class:ServiceGroupInfo
+vec	service_replicas.h	/^    vector<HostInfo> vec;$/;"	m	class:ServiceReplicasInfo
+~AsyncService	service.cpp	/^AsyncService::~AsyncService()$/;"	f	class:AsyncService
+~ConfigManager	config_manager.h	/^    virtual ~ConfigManager(){};$/;"	f	class:ConfigManager
+~ConfigSyncProtoHandler	config_proto_handler.h	/^    virtual ~ConfigSyncProtoHandler(){}$/;"	f	class:ConfigSyncProtoHandler
+~Element	strategy.h	/^    virtual ~Element() {$/;"	f	class:Element
+~FileLister	file_lister.cpp	/^FileLister::~FileLister()$/;"	f	class:FileLister
+~IAsyncProtoHandler	proto_handler.cpp	/^IAsyncProtoHandler::~IAsyncProtoHandler() {$/;"	f	class:IAsyncProtoHandler
+~IAsyncServiceGroup	service_group.h	/^    virtual ~IAsyncServiceGroup(){}$/;"	f	class:IAsyncServiceGroup
+~IChooseByInt	strategy.h	/^    virtual ~IChooseByInt(){}$/;"	f	class:IChooseByInt
+~IChooseByNothing	strategy.h	/^    virtual ~IChooseByNothing(){}$/;"	f	class:IChooseByNothing
+~IChooseByString	strategy.h	/^    virtual ~IChooseByString(){}$/;"	f	class:IChooseByString
+~IProcessor	processor.h	/^    virtual ~IProcessor(){}$/;"	f	struct:IProcessor
+~IProtoHandler	proto_handler.h	/^    virtual ~IProtoHandler(){}$/;"	f	class:IProtoHandler
+~ISend	service.h	/^    virtual ~ISend(){}$/;"	f	class:ISend
+~ISendAndRecv	service.h	/^    virtual ~ISendAndRecv(){}$/;"	f	class:ISendAndRecv
+~ISendAndRecvByInt	service_group.h	/^    virtual ~ISendAndRecvByInt(){}$/;"	f	class:ISendAndRecvByInt
+~ISendAndRecvByNothing	service_group.h	/^    virtual ~ISendAndRecvByNothing(){}$/;"	f	class:ISendAndRecvByNothing
+~ISendAndRecvByString	service_group.h	/^    virtual ~ISendAndRecvByString(){}$/;"	f	class:ISendAndRecvByString
+~ISendByInt	service_group.h	/^    virtual ~ISendByInt(){}$/;"	f	class:ISendByInt
+~ISendByString	service_group.h	/^    virtual ~ISendByString(){}$/;"	f	class:ISendByString
+~ISimpleProcessor	processor.h	/^    virtual ~ISimpleProcessor(){}$/;"	f	struct:ISimpleProcessor
+~ISyncProtoHandler	proto_handler.cpp	/^ISyncProtoHandler::~ISyncProtoHandler() {$/;"	f	class:ISyncProtoHandler
+~ISyncServiceGroup	service_group.h	/^    virtual ~ISyncServiceGroup(){}$/;"	f	class:ISyncServiceGroup
+~LogProcessor	log_processor.h	/^    virtual ~LogProcessor(){}$/;"	f	class:LogProcessor
+~ReInitable	service.h	/^    virtual ~ReInitable(){}$/;"	f	class:ReInitable
+~ServiceGroup	service_group.cpp	/^ServiceGroup::~ServiceGroup()$/;"	f	class:ServiceGroup
+~ServiceReplicas	service_replicas.cpp	/^ServiceReplicas::~ServiceReplicas()$/;"	f	class:ServiceReplicas
+~Strategy	strategy.h	/^    virtual ~Strategy(){};$/;"	f	class:Strategy
+~SyncService	service.cpp	/^SyncService::~SyncService()$/;"	f	class:SyncService
+~TcpClient	tcp_client.h	/^    virtual ~TcpClient()$/;"	f	class:TcpClient
